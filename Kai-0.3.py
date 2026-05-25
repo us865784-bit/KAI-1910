@@ -143,15 +143,15 @@ if "name.tx" in l:
              rocpapsci = 0
              for rocpapsci in range(10):
                  rcp()
-                 rocpapsci = rocpapsci + 1
+                 rocpapsci += 1
                  kaircpscore = int(0)
                  userrcpscore = int(0)
                  if rcp == "You win!":
-                     userrcpscore = userrcpscore =+ 1
+                     userrcpscore += 1
                  if rcp == "Match tie.":
                      pass
                  if rcp == "KAi wins!":
-                     kaircpscore = kaircpscore =+ 1
+                     kaircpscore += 1
                  print(f"score is {kaircpscore}:{userrcpscore}")
          else:
                  slow("KAi: I don't know how to answer that yet.")
